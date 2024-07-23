@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="" class="logo"><img src="./assets/Kobe-Bryant-Symbol-removebg-preview (2) (1).png" alt=""></a>
+            <div id="navegar" onclick="navegar()"></div>
+        </header>
+        <div class="conteudo">
+            <h2>Loja<br><span>Kobe Bryant</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur aliquid possimus, ut aspernatur excepturi eius recusandae autem fugit vero expedita, sit quae? Ducimus voluptates deserunt similique in. Omnis, sequi harum.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <ul class="sci">
+            <li>
+               <a href="#"><img src="./assets/facebook.png" alt="facebook"></a>
+            </li>
+
+                 <li>
+                <a href="#"><img src="./assets/twitter.png" alt="twitter"></a>
+                </li>
+
+                  <li>
+                    <a href="#"><img src="./assets/linkedin (1).png" alt="linkedin"></a>
+                  </li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function navegar(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+
+        
+    </script>
+</body>
+</html>
